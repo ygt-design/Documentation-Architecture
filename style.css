@@ -1,0 +1,50 @@
+@font-face {
+    font-family: Roboto;
+    src: url('./assets/fonts/RobotoFlex-VariableFont_GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf');
+}
+
+body {
+    font-family: Roboto;
+    font-weight: normal;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 60px;
+    height: 28px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: white;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+.link {
+    stroke-width: 1px;
+}
+
+.node {
+    fill: rgb(255, 0, 255);
+    r: 5px;
+    cursor: pointer;
+}
+
+.label {
+    font-size: 12px;
+    fill: magenta;
+}
+
+.info {
+    position: absolute;
+    background-color: yellow;
+    padding: 10px;  
+    color: black;
+    display: none;
+}
